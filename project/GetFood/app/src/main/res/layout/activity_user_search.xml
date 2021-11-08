@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserMainActivity">
+
+
+
+    <TextView
+        android:id="@+id/search_text"
+        android:layout_marginTop="30dp"
+        android:text="Поиск ресторана"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>

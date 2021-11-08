@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "448007116685",
+    "firebase_url": "https://getfood-35df1-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "getfood-35df1",
+    "storage_bucket": "getfood-35df1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448007116685:android:e6ff9e8ad0fa39f1e8cfc4",
+        "android_client_info": {
+          "package_name": "com.example.getfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448007116685-9te447qp5ul13noaohgvcvekdqo9ntmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getfood",
+            "certificate_hash": "9bca671d785e8bf8929c784a3d879a9da434680c"
+          }
+        },
+        {
+          "client_id": "448007116685-ht31gmimair908lim6io3n5j14nv25ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUhwr4QXH80dPaxEhkLqQoURHJ2Dip4pM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448007116685-ht31gmimair908lim6io3n5j14nv25ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

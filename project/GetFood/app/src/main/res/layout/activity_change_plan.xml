@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnersActivities.ChangePlanActivity">
+
+    <TextView
+        android:id="@+id/plan_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="План ресторана"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="30dp"
+        />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/plan_text"
+
+
+        />
+    
+
+
+</RelativeLayout>

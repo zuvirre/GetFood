@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/AppNameLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/app_name" />
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AppNameLogo"
+        android:layout_centerHorizontal="true"
+        android:text="Добро пожаловать!"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:text="Уже есть аккаунт? Войти."
+        android:textAllCaps="false"
+        android:textSize="21dp"
+        android:textColor="@color/white"
+
+        />
+    <Button
+        android:id="@+id/main_join_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_login_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="20dp"
+        android:background="@drawable/input_design"
+        android:text="Регистрация"
+        android:textAllCaps="false"
+        android:textSize="21dp"
+        android:textColor="@color/white"
+
+        />
+
+
+
+
+
+</RelativeLayout>
